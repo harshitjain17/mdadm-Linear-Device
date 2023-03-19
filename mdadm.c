@@ -12,7 +12,7 @@ uint32_t encode_op(int cmd, int disk_num, int reserved, int block_num) {
 };
 
 // mount = 1 -> mounted
-// mount = 0 -> unmounted
+// mount = 0 -> unmounted 
 int mount = 0;
 
 int mdadm_mount(void) {

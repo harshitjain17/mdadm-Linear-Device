@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include "jbod.h"
+#include "cache.h"
 
 /* Return 1 on success and -1 on failure */
 int mdadm_mount(void);

@@ -1,8 +1,7 @@
+#include "cache.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-#include "cache.h"
 
 static cache_entry_t *cache = NULL;
 static int cache_size = 0;

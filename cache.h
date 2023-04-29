@@ -8,11 +8,11 @@
 #include "util.h"
 
 typedef struct {
-    bool valid;
-    int disk_num;
-    int block_num;
-    uint8_t block[JBOD_BLOCK_SIZE];
-    int access_time;
+  bool valid;
+  int disk_num;
+  int block_num;
+  uint8_t block[JBOD_BLOCK_SIZE];
+  int access_time;
 } cache_entry_t;
 
 /* Returns 1 on success and -1 on failure. Should allocate a space for
